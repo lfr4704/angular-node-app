@@ -3,9 +3,9 @@ import { MessagesComponent } from './messages.component'
 
 @Component({
   selector: 'app-root',
-  template: '<h1>hello {{title}}</h1><messages></messages>',
+  template: '<h1>hello{{title}}</h1><messages></messages>',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my app';
+  title = 'My app';
 }
